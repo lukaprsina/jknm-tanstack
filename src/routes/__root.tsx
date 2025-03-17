@@ -62,7 +62,7 @@ function RootComponent() {
 function RootDocument({ children }: { readonly children: React.ReactNode }) {
   return (
     // suppress since we're updating the "dark" class in a custom script below
-    <html suppressHydrationWarning>
+    <html lang="sl" suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>
